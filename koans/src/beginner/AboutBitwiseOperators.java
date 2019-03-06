@@ -60,8 +60,8 @@ public class AboutBitwiseOperators {
         assertEquals(rightShiftNegativeStaysNegative, -134217728);
         int unsignedRightShift = 0x80000000; // always fills with 0
         unsignedRightShift >>>= 4; // Just like +=
-        assertEquals(unsignedRightShift, );
+        assertEquals(unsignedRightShift, 134217728);
     }
-    
+
 }
 
